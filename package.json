@@ -1,7 +1,7 @@
 {
   "name": "generator-riot-element",
-  "version": "0.0.0",
-  "description": "Yeoman generator",
+  "version": "1.0.0",
+  "description": "Creates riot element under a folder with separate .css and .tag-files.",
   "license": "MIT",
   "main": "app/index.js",
   "repository": "opture/generator-riot-element",
@@ -10,14 +10,13 @@
     "email": "ph@aspsele.com",
     "url": "https://github.com/opture"
   },
-  "scripts": {
-    "test": "mocha"
-  },
   "files": [
     "generators"
   ],
   "keywords": [
-    "yeoman-generator"
+    "yeoman-generator",
+    "riotjs",
+    "custom element"
   ],
   "dependencies": {
     "yeoman-generator": "^0.19.0",

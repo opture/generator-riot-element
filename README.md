@@ -3,7 +3,7 @@ Generator for riot elements.
 Creates a folder /tags/elements/{elementname}. With a .tag-file and a .css-file.
 
 This is intended for use with my webpack-riotjs setup.
-<a href="https://github.com/opture/webpack-riotjs">webpack-riotjs</a>
+<a href="https://github.com/opture/generator-webpack-riotjs">generator-webpack-riotjs</a>
 
 ##Usage
 Create a new element.<br>

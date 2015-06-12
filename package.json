@@ -16,7 +16,7 @@
   "keywords": [
     "yeoman-generator",
     "riotjs",
-    "riot"
+    "riot",
     "custom element"
   ],
   "dependencies": {

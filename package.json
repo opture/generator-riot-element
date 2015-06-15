@@ -1,6 +1,6 @@
 {
   "name": "generator-riot-element",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Creates riot element under a folder with separate .css and .tag-files.",
   "license": "MIT",
   "main": "app/index.js",

@@ -1,18 +1,29 @@
 require('./<%= elementName %>.css');
 
 <<%= elementName %>>
-    <div>Hello from <span>The underworld</span></div>
+    <div>Basic page</div>
 
 	<script>
+	var self = this;
+		self.registerEvents = function(){
+			setTimeout(function(){
+				//Sample registration of events.
+					 window.app.dispatcher.on('some-store-collection-changed', function(){
+						console.log('some store collection changed...');
+					});
+					window.app.dispatcher.trigger('some-store-init');
+			}, 1);
+		};
 
-		this.on('update', function(){
-
-		});
-		this.on('mount', function(){
-
-		});
-		this.on('unmount', function(){
-
+		self.on('mount', function(){
+			//Check if dispatcher is ready.
+			if (window.app.dispatcher) {
+			  //If appDispatcher is ready then register
+			  self.registerEvents();
+			} else {
+			  //AppDispatcher not ready yet, register event and wait for it to be ready.
+			  document.addEventListener('dispatcher-ready', self.registerEvents);
+			}
 		});
 
 	</script>

@@ -1,4 +1,6 @@
 # generator-riot-element
+
+[![Join the chat at https://gitter.im/opture/generator-riot-element](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/opture/generator-riot-element?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 Generator for riot elements.
 Creates a folder /tags/elements/{elementname}. With a .tag-file and a .css-file.
 

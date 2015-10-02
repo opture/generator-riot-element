@@ -24,12 +24,12 @@ module.exports = yeoman.generators.Base.extend({
     this.components = this.args;
     this.flags = this.options;
 
-    if (this.elementName.indexOf('-') === -1) {
+/*    if (this.elementName.indexOf('-') === -1) {
       this.emit('error', new Error(
         'Element name must contain a dash "-"\n' +
         'ex: yo riot-element my-element'
       ));
-    }
+    }*/
   },
   element: function () {
     // Create the template element
